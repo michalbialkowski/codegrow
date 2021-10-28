@@ -1,11 +1,7 @@
-header.inverted .navbar {
-  filter: invert(100%);
-}
-header.inverted .navbar .dropdown .dropdown-menu {
+header .navbar .dropdown .dropdown-menu {
   text-transform: none;
-  filter: invert(100%);
 }
-header.bg-blur {
+header .navbar.bg-blur {
   background: rgba(0, 0, 0, 0.2) !important;
   backdrop-filter: blur(10px);
 }
@@ -13,6 +9,9 @@ header.bg-blur {
 #section__hero .content {
   background: linear-gradient(rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, 0.35) 150px);
   text-shadow: 0 3px 7px rgba(0, 0, 0, 0.5);
+}
+#section__hero .content .flickity-page-dots .dot {
+  background: white;
 }
 
 #section__heading .content {
