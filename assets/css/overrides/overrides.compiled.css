@@ -1,0 +1,13 @@
+.noshadow {
+  box-shadow: none !important;
+}
+
+.nooutline {
+  outline: none !important;
+}
+
+table.floathead thead th {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}

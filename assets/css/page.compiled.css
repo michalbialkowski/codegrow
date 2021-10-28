@@ -1,0 +1,43 @@
+* {
+  font-smooth: antialiased;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  height: -webkit-fill-available;
+}
+html body {
+  min-height: -webkit-fill-available;
+}
+@media (max-width: 991.98px) {
+  html body > #section__page {
+    min-height: 100vh;
+  }
+}
+
+html {
+  background: #f8f9fa;
+}
+html body {
+  background: #f8f9fa;
+}
+html body > #section__page {
+  background: #f8f9fa;
+}
+@media (max-width: 991.98px) {
+  html {
+    background: #fff;
+  }
+  html body {
+    background: #fff;
+  }
+  html body > #section__page {
+    background: #fff;
+  }
+}
+html header,
+html main,
+html footer {
+  background: #fff;
+}
