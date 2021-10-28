@@ -18,3 +18,7 @@ header .navbar.bg-blur {
   background: linear-gradient(rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, 0.35) 150px);
   text-shadow: 0 3px 7px rgba(0, 0, 0, 0.5);
 }
+
+#section__tech .bg--image--content {
+  background: linear-gradient(#f8f9fa 0, rgba(248, 249, 250, 0) 100%);
+}
