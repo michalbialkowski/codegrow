@@ -41,3 +41,10 @@ html main,
 html footer {
   background: #fff;
 }
+
+header.inverted .navbar {
+  filter: invert(100%);
+}
+header.inverted .navbar .dropdown .dropdown-menu {
+  filter: invert(100%);
+}
