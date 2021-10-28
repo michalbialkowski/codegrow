@@ -11,6 +11,18 @@ $(window).on('load', function() {
 });
 
 $(window).on('load', function() {
+	$('.flickity--hero').flickity({
+		cellAlign: 'left',
+		contain: true,
+		freeScroll: false,
+		wrapAround: true,
+		pageDots: true,
+		autoPlay: true,
+		prevNextButtons: false
+	});
+});
+
+$(window).on('load', function() {
 	$('.flickity--posts').flickity({
 		cellAlign: 'left',
 		contain: true,
